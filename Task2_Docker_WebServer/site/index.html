@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TEECLOUDQ DevOps Deployment Hub - Containerized web server project.">
+    <title>DevOps Deployment Hub | TEECLOUDQ</title>
+    <style>
+        :root {
+            color-scheme: dark;
+            --background: #0b1120;
+            --panel: #121c30;
+            --border: #26344d;
+            --text: #e8eef8;
+            --muted: #9aaac2;
+            --gold: #e8b44f;
+            --green: #45d6a0;
+            --blue: #70a7ff;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+            font-family: "Segoe UI", Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 22px 7%;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand {
+            color: var(--gold);
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        .tag {
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 5px 12px;
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 65px 24px;
+        }
+
+        .eyebrow {
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        h1 {
+            max-width: 760px;
+            font-size: clamp(34px, 6vw, 58px);
+            line-height: 1.12;
+            margin: 15px 0;
+        }
+
+        h1 span { color: var(--gold); }
+
+        .intro {
+            max-width: 700px;
+            color: var(--muted);
+            font-size: 17px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+            margin-top: 38px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 22px;
+        }
+
+        .card h2 {
+            font-size: 15px;
+            color: var(--muted);
+            margin-top: 0;
+        }
+
+        .value {
+            font-size: 23px;
+            font-weight: 700;
+        }
+
+        .green { color: var(--green); }
+        .blue { color: var(--blue); }
+        .gold { color: var(--gold); }
+
+        .section-title { margin-top: 48px; }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 14px;
+        }
+
+        .feature {
+            padding: 16px;
+            border-left: 3px solid var(--gold);
+            background: #0f192b;
+        }
+
+        .feature p {
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 24px;
+            text-align: center;
+            color: var(--muted);
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand">TEECLOUDQ</div>
+        <div class="tag">CODEALPHA · DEVOPS INTERNSHIP</div>
+    </header>
+
+    <main>
+        <p class="eyebrow">Containerized Infrastructure Project</p>
+        <h1>DevOps <span>Deployment Hub</span></h1>
+        <p class="intro">
+            A practical demonstration of containerized web hosting using
+            Docker and Nginx, with a focus on reliability, observability,
+            operational discipline, and deployment best practices.
+        </p>
+
+        <section class="grid" aria-label="Project overview">
+            <article class="card">
+                <h2>Web Server</h2>
+                <div class="value blue">Nginx</div>
+                <p>Lightweight HTTP server</p>
+            </article>
+
+            <article class="card">
+                <h2>Deployment Platform</h2>
+                <div class="value gold">Docker</div>
+                <p>Containerized application delivery</p>
+            </article>
+
+            <article class="card">
+                <h2>Health Monitoring</h2>
+                <div class="value green">Healthy</div>
+                <p>Verified using Docker health checks</p>
+            </article>
+        </section>
+
+        <h2 class="section-title">Operational Capabilities</h2>
+
+        <section class="features" aria-label="Project capabilities">
+            <article class="feature">
+                <strong>Container Lifecycle</strong>
+                <p>Create, start, stop, restart, inspect, and remove containers.</p>
+            </article>
+
+            <article class="feature">
+                <strong>Health and Diagnostics</strong>
+                <p>Check application health, examine logs, and troubleshoot failures.</p>
+            </article>
+
+            <article class="feature">
+                <strong>Deployment Practices</strong>
+                <p>Use explicit image tags, sensible restart behaviour, and security controls.</p>
+            </article>
+
+            <article class="feature">
+                <strong>Reproducibility</strong>
+                <p>Document the build, run, verification, and recovery procedures.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        Built by Sunday Peter Adeoti · TEECLOUDQ · CodeAlpha Virtual DevOps Internship
+    </footer>
+</body>
+</html>
+

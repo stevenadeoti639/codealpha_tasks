@@ -1,0 +1,12 @@
+.git
+.github
+.vscode
+.idea
+evidence/
+scripts/
+config/
+README.md
+.dockerignore
+*.log
+.env
+.env.*

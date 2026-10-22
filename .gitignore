@@ -1,0 +1,24 @@
+﻿# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Generated Java and Gradle files
+**/.gradle/
+**/build/
+**/out/
+
+# Raw Docker inspection dumps
+Task2_Docker_WebServer/evidence/*inspect*.json
+
+# Local troubleshooting logs
+Task3_Java_Gradle_Application/boot-error.txt

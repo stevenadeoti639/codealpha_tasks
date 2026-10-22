@@ -1,0 +1,12 @@
+Project: CodeAlpha Jenkins Remoting
+Agent name: probook-agent
+Description: HP ProBook remote agent for the CodeAlpha Jenkins Remoting project
+Executors: 1
+Remote root directory: C:\Jenkins\agent
+Label: probook-agent
+Usage: Only build jobs with matching label expressions
+Launch method: Agent connects to the Jenkins controller
+Availability: Keep this agent online as much as possible
+
+Security note:
+The agent connection secret is intentionally excluded from this documentation.

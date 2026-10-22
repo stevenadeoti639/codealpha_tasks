@@ -1,0 +1,10 @@
+﻿Docker Web Server - Version 1.1 Test
+Date: 2026-10-19 13:42:31
+Image: tecloudq/deployment-hub:1.1
+Test container: tecloudq-webserver-v11-test
+Read-only root filesystem: true
+Tmpfs paths: /tmp, /var/cache/nginx, /var/run
+HTTP test: 200
+Page title found: true
+Health status: healthy
+Original version 1.0 remains available for rollback.

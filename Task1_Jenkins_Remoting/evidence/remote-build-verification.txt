@@ -1,0 +1,12 @@
+Project: CodeAlpha Jenkins Remoting
+Job: Probook-Remote-Build
+Result: SUCCESS
+Execution machine: HP ProBook remote agent
+Agent label: probook-agent
+Workspace: C:\Jenkins\agent\workspace\Probook-Remote-Build
+
+Verified:
+- Jenkins executed the job on the remote agent.
+- The remote Windows hostname was displayed.
+- Java version information was retrieved.
+- The build completed successfully.

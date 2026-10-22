@@ -1,0 +1,12 @@
+Project: CodeAlpha Jenkins Remoting
+Job: ProBook-Java-Remote-Build
+Result: SUCCESS
+Execution machine: HP ProBook remote agent
+Agent label: probook-agent
+
+Verified:
+- Java source code was created on the remote agent.
+- javac compiled the Java source successfully.
+- The compiled Java application executed successfully.
+- The application identified the remote build machine.
+- Jenkins reported Finished: SUCCESS.

@@ -1,0 +1,25 @@
+Started by user Adeoti Sunday Peter
+Running as SYSTEM
+Building remotely on probook-agent in workspace C:\Jenkins\agent\workspace\Probook-Remote-Build
+[Probook-Remote-Build] $ cmd /c call C:\Users\ADEOTI\AppData\Local\Temp\jenkins1725880582596521324.bat
+==========================================
+TEECLOUDQ - JENKINS REMOTE BUILD LAB
+==========================================
+
+Build executed on:
+DESKTOP-BQUEVPI
+
+Operating system:
+
+Microsoft Windows [Version 10.0.19045.6466]
+
+Java version:
+openjdk version "21.0.12.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)
+
+Current working directory:
+C:\Jenkins\agent\workspace\Probook-Remote-Build
+
+Remote agent build completed successfully.
+Finished: SUCCESS
